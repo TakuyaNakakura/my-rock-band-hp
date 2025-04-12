@@ -29,7 +29,13 @@ export default function AboutPage() {
               <div>
                 <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl mb-4">OUR STORY</h2>
                 <p className="text-white/80 mb-4">
-                  Warker's was founded in 2024.
+                  Warker&apos;s was founded in 2024 with a vision to create innovative digital experiences that blend art and technology.
+                </p>
+                <p className="text-white/80 mb-4">
+                  Our team of passionate designers and developers work together to bring creative ideas to life, focusing on delivering exceptional user experiences across all platforms.
+                </p>
+                <p className="text-white/80">
+                  As we continue to grow, we remain committed to our core values of creativity, quality, and client satisfaction.
                 </p>
               </div>
               <div className="relative h-[400px] md:h-auto">
@@ -39,6 +45,7 @@ export default function AboutPage() {
                   fill
                   className="object-cover rounded-lg"
                   sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
                 />
               </div>
             </div>

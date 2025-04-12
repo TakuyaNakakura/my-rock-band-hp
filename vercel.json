@@ -1,0 +1,16 @@
+{
+  "buildCommand": "npm run build",
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "outputDirectory": ".next",
+  "images": {
+    "sizes": [640, 750, 828, 1080, 1200, 1920, 2048],
+    "domains": [],
+    "remotePatterns": [
+      {
+        "protocol": "https",
+        "hostname": "placehold.co"
+      }
+    ]
+  }
+}
