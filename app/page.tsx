@@ -27,13 +27,13 @@ export default function Home() {
           <div className="container max-w-screen-xl mx-auto absolute bottom-0 left-0 right-0 z-20 px-4 pb-10 md:px-6 md:pb-20">
             <div className="max-w-3xl">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">NEW RELEASE</h1>
-              <p className="mt-4 text-xl text-white/90">Warker's - NEW SONG</p>
+              <p className="mt-4 text-xl text-white/90">Warker&apos;s - NEW SONG</p>
               <div className="mt-6 flex flex-wrap gap-4">
-                <Button className="bg-red-600 hover:bg-red-700">
+                <Button className="bg-red-600 hover:bg-red-700 w-full sm:w-auto">
                   LISTEN NOW
                   <Play className="ml-2 h-4 w-4" />
                 </Button>
-                <Button variant="outline" className="border-white/20 hover:bg-white/10">
+                <Button variant="outline" className="border-white/20 hover:bg-white/10 w-full sm:w-auto">
                   VIEW DETAILS
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
